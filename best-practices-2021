@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <title>ChipMixer - Bitcoin tumbler</title>
+	<meta http-equiv="Onion-Location" content="http://chipmixorflykuxu56uxy7gf5o6ggig7xru7dnihc4fm4cxqsc63e6id.onion/" />
+<style>
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #444444;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  text-align: center !important;
+}
+</style>
+</head>
+<body>
+<div style="margin-left: 10%; text-align: left;">
+	<br>
+	<a href="/">Looking for ChipMixer? Check our announcement here</a>
+
+<h1>Best practices of Bitcoin mixing in 2021</h1>
+
+<h3>No web-wallets</h3>
+<p>
+  This is not "best practice". It is basic rule of mixing.
+</p>
+
+<h3>Separate unmixed and mixed wallets</h3>
+<p>
+  If you are importing or sweeping mixed funds into same wallet as your
+  unmixed funds then sooner or later your wallet will join them.
+  Keep separate wallets. If it helps - use different software for both.
+</p>
+
+<h3>Active wallets require periodical mixing</h3>
+<p>
+  Mixing may erase your on-chain history but if you are making multiple transactions
+  with multiple people your new history grows. Pick reasonable number and mix
+  your used funds after. Do not mix unspent chips - they have no history and
+  you will get better privacy this way.
+</p>
+
+<h3>Delay your withdrawal</h3>
+<p>
+  Your deposit transaction is recorded on-chain. If you withdraw instantly
+  especially large sum or unusual combination of chips at once then it
+  can decrease your privacy. On the other hand if you keep some time between
+  receiving chips and using private keys then your privacy grows with
+  each ChipMixer deposit and withdrawal.
+</p>
+
+<h3>Plan your chip size</h3>
+<p>
+  You know you will pay 3.5 mBTC every week. You mix 12 mBTC and receive 8 mBTC
+  and 4 mBTC chip. If you withdraw them like this - two of your transactions
+  will be linked. It is better to split 8 mBTC into two 4 mBTC chips to have
+  them ready for each payment.
+</p>
+
+<h3>Change handling is dangerous</h3>
+<p>
+  You spend 2.5 mBTC out of 4 mBTC chip. Then 7 mBTC out of 8 mBTC chips.
+  You have 1.5 mBTC and 1 mBTC change outputs. If you join them - your previous
+  transactions will join. If you keep them - sooner or later your wallet will
+  use them and you will not know when.
+</p>
+<p>
+  Use cryptocurrency services that allows you to create multiple deposit addresses
+  to join them off-chain. You can also send them to ChipMixer separate sessions
+  to withdraw them as chips. Just remember that minimal value is 1 mBTC and sending
+  between 1-2 mBTC will give you only 1 mBTC chip and donate rest.
+</p>
+
+<h3>Try to keep chips out of wallet</h3>
+<p>
+  Bitcoin wallet is the best place to keep Bitcoin private keys but sometimes
+  it is not. For example Electrum thin-wallet will ask server to fetch
+  your transactions disclosing all public addresses. If you keep chip private keys
+  out of Electrum wallet till you want to spend them - they will not be known
+  as owned and withdrawn till then.
+</p>
+
+<h3>Contact us</h3>
+<p>
+  Do you disagree with one of them? Do you know something better? Contact us
+  at <a href="mailto:chipmixer@protonmail.com">chipmixer@protonmail.com</a> with topic "Bitcoin mixing - best practices".
+</p>
+
+
+</div>
+</body>
+</html>
+
